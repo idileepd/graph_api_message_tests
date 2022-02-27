@@ -4,6 +4,7 @@ const insertConentToHtmlBody = (htmlContent, addingContent) => {
   const errorMessage = "unable to parse HTML";
   const bodyStart = htmlContent.indexOf("<body");
   if (bodyStart === -1) return errorMessage;
+  //handle error
   const bodyEndsAt =
     htmlContent.substring(bodyStart).indexOf(">") +
     htmlContent.lastIndexOf("<body") +

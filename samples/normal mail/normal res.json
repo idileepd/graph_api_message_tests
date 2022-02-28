@@ -1,0 +1,55 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('dileepavivatest%40outlook.com')/messages/$entity",
+  "@odata.etag": "W/\"CQAAABYAAACgdB/APZNtSaCKK93qDhNvAAAAAAZg\"",
+  "id": "AQMkADAwATMwMAItNDlhZS05YzVlLTAwAi0wMAoARgAAA9X0gwlCorFPrhO1q6KR7u8HAKB0H8A9k21JoIor3eoOE28AAAIBDAAAAKB0H8A9k21JoIor3eoOE28AAAIVDQAAAA==",
+  "createdDateTime": "2022-02-28T01:51:38Z",
+  "lastModifiedDateTime": "2022-02-28T01:51:42Z",
+  "changeKey": "CQAAABYAAACgdB/APZNtSaCKK93qDhNvAAAAAAZg",
+  "categories": [],
+  "receivedDateTime": "2022-02-28T01:51:38Z",
+  "sentDateTime": "2022-02-28T01:51:21Z",
+  "hasAttachments": false,
+  "internetMessageId": "<CANOj3LCJsHrsAu0gijoRFz+8AZiYOMgQO6xA0yqC=qpWUrLuQQ@mail.gmail.com>",
+  "subject": "Testing Application",
+  "bodyPreview": "Dear Dileep,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen",
+  "importance": "normal",
+  "parentFolderId": "AQMkADAwATMwMAItNDlhZS05YzVlLTAwAi0wMAoALgAAA9X0gwlCorFPrhO1q6KR7u8BAKB0H8A9k21JoIor3eoOE28AAAIBDAAAAA==",
+  "conversationId": "AQQkADAwATMwMAItNDlhZS05YzVlLTAwAi0wMAoAEACY6nHTZN6aRaJeA5I3BaYG",
+  "conversationIndex": "AQHYLEW5mOpx02TemkWiXgOSNwWmBg==",
+  "isDeliveryReceiptRequested": null,
+  "isReadReceiptRequested": false,
+  "isRead": true,
+  "isDraft": false,
+  "webLink": "https://outlook.live.com/owa/?ItemID=AQMkADAwATMwMAItNDlhZS05YzVlLTAwAi0wMAoARgAAA9X0gwlCorFPrhO1q6KR7u8HAKB0H8A9k21JoIor3eoOE28AAAIBDAAAAKB0H8A9k21JoIor3eoOE28AAAIVDQAAAA%3D%3D&exvsurl=1&viewmodel=ReadMessageItem",
+  "inferenceClassification": "focused",
+  "body": {
+    "contentType": "html",
+    "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head><body><div dir=\"ltr\">Dear Dileep,<br><br><strong style=\"margin:0px; padding:0px; color:rgb(0,0,0); font-family:&quot;Open Sans&quot;,Arial,sans-serif; font-size:14px; text-align:justify\">Lorem Ipsum</strong><span style=\"color:rgb(0,0,0); font-family:&quot;Open Sans&quot;,Arial,sans-serif; font-size:14px; text-align:justify\">&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br></span><br><span style=\"color:rgb(103,103,103); font-family:&quot;Segoe UI&quot;,wf_segoe-ui_normal,Arial,Helvetica; font-size:14px\">Don't miss the best moments of your favorite sports teams or TV shows. With Interesting calendars in Outlook, you can add the schedules from over 300 teams and shows to your Outlook calendar.<br></span><br>Regards,<br>Dileep Nagendra.<br></div></body></html>"
+  },
+  "sender": {
+    "emailAddress": {
+      "name": "Dileep XDN",
+      "address": "dileepxdn@gmail.com"
+    }
+  },
+  "from": {
+    "emailAddress": {
+      "name": "Dileep XDN",
+      "address": "dileepxdn@gmail.com"
+    }
+  },
+  "toRecipients": [
+    {
+      "emailAddress": {
+        "name": "dileepavivatest@outlook.com",
+        "address": "dileepavivatest@outlook.com"
+      }
+    }
+  ],
+  "ccRecipients": [],
+  "bccRecipients": [],
+  "replyTo": [],
+  "flag": {
+    "flagStatus": "notFlagged"
+  }
+}

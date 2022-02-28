@@ -1,0 +1,188 @@
+id ::: AQMkADAwATMwMAItNDlhZS05YzVlLTAwAi0wMAoARgAAA9X0gwlCorFPrhO1q6KR7u8HAKB0H8A9k21JoIor3eoOE28AAAIBDAAAAKB0H8A9k21JoIor3eoOE28AAAIVDQAAAA==
+
+Received: from SG2PR06MB5311.apcprd06.prod.outlook.com (2603:1096:4:1ba::6) by
+ TYZPR06MB4551.apcprd06.prod.outlook.com with HTTPS; Mon, 28 Feb 2022 01:51:37
+ +0000
+Received: from AM0PR07CA0027.eurprd07.prod.outlook.com (2603:10a6:208:ac::40)
+ by SG2PR06MB5311.apcprd06.prod.outlook.com (2603:1096:4:1ba::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5017.22; Mon, 28 Feb
+ 2022 01:51:36 +0000
+Received: from AM6EUR05FT050.eop-eur05.prod.protection.outlook.com
+ (2603:10a6:208:ac:cafe::c0) by AM0PR07CA0027.outlook.office365.com
+ (2603:10a6:208:ac::40) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5038.9 via Frontend
+ Transport; Mon, 28 Feb 2022 01:51:34 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.217.43)
+ smtp.mailfrom=gmail.com; dkim=pass (signature was verified)
+ header.d=gmail.com;dmarc=pass action=none header.from=gmail.com;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of gmail.com designates
+ 209.85.217.43 as permitted sender) receiver=protection.outlook.com;
+ client-ip=209.85.217.43; helo=mail-vs1-f43.google.com;
+Received: from mail-vs1-f43.google.com (209.85.217.43) by
+ AM6EUR05FT050.mail.protection.outlook.com (10.233.241.171) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5017.22 via Frontend Transport; Mon, 28 Feb 2022 01:51:34 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:C554697ECCD147832BDD9B6A671A08408CF898C36A616E719F225DE9BAE16D57;UpperCasedChecksum:032E9510AF9EF9F7300F1ECD94518484B566A9426CC583E9449861A9254E4A7A;SizeAsReceived:2149;Count:13
+Received: by mail-vs1-f43.google.com with SMTP id u10so11394276vsu.13
+        for <dileepavivatest@outlook.com>; Sun, 27 Feb 2022 17:51:34 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=+MjLd9sn18aof/Exrk5nHYk4yBdBk85+vcFKDfCzz+c=;
+        b=TAXlbXSYNYF23/ewG3EqVKCf6k5rzdJQCOvA1CBRRR3sAmo9qMZKtfU/XqyHpZIdGy
+         K4XQe9EWQPuyKdkqxMhP6Fiu8m0bHuVnbaz3y4+UYveCt9tYPqx6OgZXFt1FvyM+Wk3q
+         zwEkY9lBaqpwDlHufhuD6jpJLh+Q/wfV2PCPivuH2pz7oh2UzxzHa0eQTGYeYxhAT1g6
+         j32nT2FHaRvuSfgY5de2AQczKwGSoFItyTykrENMixDE+RdoDuuFV58EbzuEtjnBSSy8
+         jmfKrrkKoXoixjDgfs8eDS4QNCLvmQ84jMZNuF6/rgmqxz0GHIWfECfbkLaxXPfatzD9
+         iNFg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=+MjLd9sn18aof/Exrk5nHYk4yBdBk85+vcFKDfCzz+c=;
+        b=sA53UisjnI9B/peLrqC9GPZBgOamMGb1nIrxvC3wKwkIQ8IkqUuvESA9Bvvs+yjtmc
+         XGQDWIHJVJFXHbFYseQwFJnaqIaK7DTcLX8FjwUsSXeD0TjnM5sqBgIKf51wWUYT9gvX
+         VOkFpXSPqWyGWAPdBH5K7iRmzp9JOwXPgyZowetgQRFheaupuaLMjGZUZ8c88uAs6o7T
+         /QKKPCSsgWyn8OOtYYlXTNGFTkE28MKWP0mqyKIgpbhZ5CeD/3dqom4GdH+H+lG5NUQB
+         by5fSy7B5uM/YHOPQefM85wqkbxIB7bJXlBrm96skPo//++jfmOVVcCl0AgIVMbFkb27
+         qHRQ==
+X-Gm-Message-State: AOAM531j1IwBQoX/3CKt7WtYM0oQd1TCLXN5p+6BvR/dSXM5DzH+b3tB
+	+OGy9WrfmhKToTQ2TsEHKOkIOPSWBvVXR3zhjDgcuZ3q5ho=
+X-Google-Smtp-Source: ABdhPJwbC+Ek/8R5zmUFcBbqp0kAKIPEJTLHoxc38XMu5djzT4jWY7uFhnnMP7PXIeWZu117u/SIrumtT9qlkFa2NrY=
+X-Received: by 2002:a67:d589:0:b0:31b:5561:b18e with SMTP id
+ m9-20020a67d589000000b0031b5561b18emr6851627vsj.53.1646013093965; Sun, 27 Feb
+ 2022 17:51:33 -0800 (PST)
+From: Dileep XDN <dileepxdn@gmail.com>
+Date: Mon, 28 Feb 2022 07:21:21 +0530
+Message-ID: <CANOj3LCJsHrsAu0gijoRFz+8AZiYOMgQO6xA0yqC=qpWUrLuQQ@mail.gmail.com>
+Subject: Testing Application
+To: dileepavivatest@outlook.com
+Content-Type: multipart/alternative; boundary="000000000000c2f62c05d90a49b7"
+X-IncomingHeaderCount: 13
+Return-Path: dileepxdn@gmail.com
+X-MS-Exchange-Organization-ExpirationStartTime: 28 Feb 2022 01:51:34.4312
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 79aaa66f-99ab-4e5e-e33d-08d9fa5cd999
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ AM6EUR05FT050.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 2/28/2022 1:49:15 AM
+X-MS-Office365-Filtering-Correlation-Id: 79aaa66f-99ab-4e5e-e33d-08d9fa5cd999
+X-MS-TrafficTypeDiagnostic: SG2PR06MB5311:EE_
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 209.85.217.43
+X-SID-PRA: DILEEPXDN@GMAIL.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 28 Feb 2022 01:51:34.4155
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 79aaa66f-99ab-4e5e-e33d-08d9fa5cd999
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ AM6EUR05FT050.eop-eur05.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SG2PR06MB5311
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.2809153
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.5017.026
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000285)(90000117)(90005022)(91005020)(90014020)(91030020)(91040095)(5061607266)(5061608174)(9050020)(9100338)(4810003)(4910013)(9575002)(10195002)(9320005);
+X-Message-Info:
+	5vMbyqxGkdcg7ONGep4r6L8wrmPpR8eQoSxL+Wzvo1m73FlV0plAZQfK1dtsV4D0G2DRiFERwIErhuE14a376QUk7zPS9tu69fEUqdrzz9Lep+5m3xPe+brLai8Xz3j/u6k9C9lCFbldAtpmEd2/y+Q7rvs7jRewJxF+44wGMgMknn0lDLte/faXQSQ7Im+VLrgFt6w7sTY=
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0xO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?dmxpeUtZUVdROXhvbWt6bFlOUStHaVlOL3pNWVg2RkI1VDc3aHRsY3dMMUVR?=
+ =?utf-8?B?aUxVNk8zQnJGQWExd3JEdkhuLzZrSDVUQnF6QjRFSUg5SDJTekw0M3pVWmEv?=
+ =?utf-8?B?dE5hSTc0SG9OWUZnZjArM0c1QVRQZEpaaldmUHFPenliRVlsUTJYWm0vQ3Y1?=
+ =?utf-8?B?Vmk0MlJGTmdyVG0rNjgrTmY3TjBQL1dsQjJjd25kc1Y1alM4M2gxOU5hbzl4?=
+ =?utf-8?B?S1dnb3ErT3BnQXFLaXY1dVJucFhxYzlOZ0JYMHcveDdRNUE2dnVhUkhQQ3RQ?=
+ =?utf-8?B?ZkNidk03TkdsM3Q4TmZyQTBMdjJPakRDNnllNlppSk5GL1orNkVlZ2NPdW1h?=
+ =?utf-8?B?Z2dkdTVocFdvanlQbzBzdHRCaFNpTFlDSUt3UUVKRDY3NVRmd1lDaEZwTjhu?=
+ =?utf-8?B?cjQ1WEdocDNNemhTV0d3ZmU1QTNxbmdGeENTYWQ1eE9aaHJ0a2dROWZWMFRL?=
+ =?utf-8?B?R1FFT05maHdVVmRXdStGSEo4cFlBakZ5dlVCWEFXMzRKcHZ1SFl2YlZtclNw?=
+ =?utf-8?B?eXVkM1dyL0RRNy80VHRxd2dMbU14WEtzckoyUXNwRmo3dStsV3hxV0Qwd2JR?=
+ =?utf-8?B?L3hLN1NwWFJZODdsR1M2ODhvVTNPa0s1NVUySHZ2cGhkYzlPUDhyd0FHaHho?=
+ =?utf-8?B?dWYzNHgvYlpYZHJxL3kyV2c2ZUdKRVVmSGt5ai9FWWZPZm9NZXNxV3d3RmZa?=
+ =?utf-8?B?ejlGZ2R1aHFkRmZzcVF5Zk9EYlo5bVhOUXFGTkg4UVNCUHNaYVBSTUFCSUtE?=
+ =?utf-8?B?SHpLR0pEd0swaUdhbmQ3LytTNmRDNnhLQ3VEbklzTGxsK3dKRG9FRUxvSjRF?=
+ =?utf-8?B?ZHNVK0xScTVLcHVhUkdWcVpzZnRja2crWHNkNmhlOEwzS3BKcFFZaXhTemQ5?=
+ =?utf-8?B?U29YQXNENFc3WGV3WjhzYldjNUdoYjdOeGJNeTdsRlRsUDBGS0k2VmlNbTd5?=
+ =?utf-8?B?SWJydXZ4TkNqYVdRd0NYVUNEbXhzWXJRaTJuYk5lbHNwOGxDeHNBbjA3V2Jw?=
+ =?utf-8?B?RkMvYU51V0ZCYmZlSmJndUJJVUFtN1BWSVo4ek85R2dPaTl6T1V5QmNaNENJ?=
+ =?utf-8?B?Z210VWFvNkJiUktpeFNDRTJwbDM2WWpKTDJzNXBRbzJIYkpKQUNnR3dKYU1o?=
+ =?utf-8?B?bTZ4aXl4T1A2Y0w4Nk9DZ0s4RXh0aE4rOUNabHJ1ZWs5bjZDZ1lpK0RMS2Nh?=
+ =?utf-8?B?SVU0NFNvMi8raEJUYU9qWjBubjk3RGFzQUovZWV2T2pWUUdQYnZ3WC82ajF2?=
+ =?utf-8?B?TWE3R0o4K2I3YTRrcC9HT2gwdzZHdjNwSGI3dGh2VE1oWlc0dFEwYWtRLzkr?=
+ =?utf-8?B?MkFSTkNYVC9IZzB0Z0wvRzY1ZTlPY2Q2TG0vTC81ZElITW1NMHlLdzAxUTBz?=
+ =?utf-8?B?cnpnYlZwU29icDdVdVNqVVN2eVI4Wmo4Um9GWFRwTWh3TzFram01VUM5RTZM?=
+ =?utf-8?B?bVM5SlpFK05raWJ6REwyNHQvSE5jbkF4NC85MG1jOUtjZnJsTE5GNEVPWjF5?=
+ =?utf-8?B?Z0l6VGR0YzZHbGtRSEllMnV3Z1UvNHN1YkdidldoeWM1bDR2cmYvcU9EN3dV?=
+ =?utf-8?B?ak9HQ2M2cTE2NnN0ZzdzTm1ieTVNRWxwZHNiaXBkWDVOS1orckdibFdwak9L?=
+ =?utf-8?B?S2FQV3hxSWE1Ri9qUVlXZFd3MU5pMWk4dzZIWXYvQVpxSmZhblU1anhCc1ZC?=
+ =?utf-8?B?bCtZRmNxM1VZcEhCZHBBUFBxbWlXTUZwanhpMFJNbFUvcmMxekhKQkIxNDIr?=
+ =?utf-8?B?VXFTeHFTYms0M1lYS1RjOXBLd21HLzRVeHpkZXYweXlYMWRWd1cvcVlaMDB4?=
+ =?utf-8?B?NzBpbjUxWUFLejNtRkdZQmIzTHJiRXFaYm1WQ0NmeEJZclRDMk5PMlNRcmp6?=
+ =?utf-8?B?TWM0TFVTTWVvejFEL1BIZHJWUGRYOFVhTVhYVHkrdTd6NTBERkVrNHhhWVNx?=
+ =?utf-8?Q?w1GedUQBXh0=3D?=
+MIME-Version: 1.0
+
+--000000000000c2f62c05d90a49b7
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Dileep,
+
+*Lorem Ipsum* is simply dummy text of the printing and typesetting
+industry. Lorem Ipsum has been the industry's standard dummy text ever
+since the 1500s, when an unknown printer took a galley of type and
+scrambled it to make a type specimen book. It has survived not only five
+centuries, but also the leap into electronic typesetting, remaining
+essentially unchanged. It was popularised in the 1960s with the release of
+Letraset sheets containing Lorem Ipsum passages, and more recently with
+desktop publishing software like Aldus PageMaker including versions of
+Lorem Ipsum.
+
+Don't miss the best moments of your favorite sports teams or TV shows. With
+Interesting calendars in Outlook, you can add the schedules from over 300
+teams and shows to your Outlook calendar.
+
+Regards,
+Dileep Nagendra.
+
+--000000000000c2f62c05d90a49b7
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><d=
+iv dir=3D"ltr">Dear Dileep,<br><br><strong style=3D"margin:0px;padding:0px;=
+color:rgb(0,0,0);font-family:&quot;Open Sans&quot;,Arial,sans-serif;font-si=
+ze:14px;text-align:justify">Lorem Ipsum</strong><span style=3D"color:rgb(0,=
+0,0);font-family:&quot;Open Sans&quot;,Arial,sans-serif;font-size:14px;text=
+-align:justify">&nbsp;is simply dummy text of the printing and typesetting =
+industry. Lorem Ipsum has been the industry's standard dummy text ever sinc=
+e the 1500s, when an unknown printer took a galley of type and scrambled it=
+ to make a type specimen book. It has survived not only five centuries, but=
+ also the leap into electronic typesetting, remaining essentially unchanged=
+. It was popularised in the 1960s with the release of Letraset sheets conta=
+ining Lorem Ipsum passages, and more recently with desktop publishing softw=
+are like Aldus PageMaker including versions of Lorem Ipsum.<br></span><br><=
+span style=3D"color:rgb(103,103,103);font-family:&quot;Segoe UI&quot;,wf_se=
+goe-ui_normal,Arial,Helvetica;font-size:14px">Don't miss the best moments o=
+f your favorite sports teams or TV shows. With Interesting calendars in Out=
+look, you can add the schedules from over 300 teams and shows to your Outlo=
+ok calendar.<br></span><br>Regards,<br>Dileep Nagendra.<br></div>
+
+--000000000000c2f62c05d90a49b7--
